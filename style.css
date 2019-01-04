@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    color: black;
+    display: inline-block;
+}
