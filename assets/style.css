@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #080808;
+    color: #fff;
+}
+
+#container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1050px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* --------------------------------------------------------------------------- navbar -------------------------------------------------*/
+.nav_logo {
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.nav_links,
+.nav_social {
+    list-style: none;
+}
+
+.nav_links li,
+.nav_social li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.nav_links li a,
+.nav_social li a{
+    transition: all 0.25s ease 0s;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.nav_links li a:hover,
+.nav_social li a:hover{
+    color: #969393;
+    text-decoration: none;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.pic {
+    background-image: url("/assets/images/event images/dsfdsfdsfdsdfsfds.jpg");
+    background-size: 2000px;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-color: rgba(0,0,0,1);
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.landing_page_logo {
+    max-width: 100%;
+    padding: 15% 5% 0 5%;
+}
+
+.landing_page_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing_page_links li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.landing_page_links li a{
+    color: #fff;
+    font-size: 200%;
+    font-weight: 600;
+    text-decoration: none;
+} 
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Russo One', sans-serif;
+}
+
+.event_flyer_border h5 {
+    font-size: 20px;
+    font-family: 'Black Ops One', cursive;
+    padding-top: 2%;
+}
+
+.event_flyers {
+    max-width: 100%;
+}
+
+.event_flyer_border {
+    display: inline-block;
+    max-width: 49%;
+    padding: 5% 2%;
+    text-align: center;
+}

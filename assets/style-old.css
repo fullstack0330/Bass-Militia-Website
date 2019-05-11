@@ -98,23 +98,33 @@ h1 {
 }
 
 .maininfoplaceholder {
-    height: 360px;
+    height: 300px;
     width: 100%;
 }
 
 .imgplaceholder {
-    height: 236px;
-    width: 340px;
-    background-color: #1a2558;
-    margin: 20px 30px;
+    height: 350px;
+    width: 500px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.imgplaceholder img {
+    height: 350px;
+    width: 500px;
     display: inline-block;
 }
 
 .imgplaceholder1 {
-    height: 467px;
-    width: 340px;
+    height: 427px;
+    width: 300px;
     background-color: #1a2558;
-    margin: 24px;
+    display: inline-block;
+}
+
+.imgplaceholder12 img{
+    height: 427px;
+    width: 300px;
     display: inline-block;
 }
 
@@ -126,12 +136,30 @@ h1 {
     display: inline-block;
 }
 
+.flyer-poster-links {
+    background-color: #1a2558;
+    display: inline-block;
+    margin: 30px 0px;
+}
+
+.flyer-poster-links img{
+    height: 427px;
+    width: 300px;
+    display: inline-block;
+}
+
 /* ---------------------------------------------------------------- main */
 
 main {
     height: 100%;
+    width: 100%;
     background-color: #000;
     text-align: center;
+}
+
+.posters {
+    padding: 0;
+    margin: 0;
 }
 
 /* --------------------------------------------------------------- footer */
