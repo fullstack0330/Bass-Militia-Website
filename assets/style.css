@@ -24,6 +24,10 @@ header {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.landing_page_header {
+    display: block;
+}
+
 
 /* ------------------------------------------------------------------------------------------ Landing page ------------------------------------*/
 
@@ -33,79 +37,112 @@ header {
     background-position: center;
     background-repeat: repeat-y;
     min-height: 100vh;
-    min-width: 100vh;
 }
 
 .landing_page_logo {
-    max-width: 300px;
+    max-width: 100%;
+    padding: 20% 0 5% 0;
 
 }
 
 .landing_page_links {
-    display: flex;
-    justify-content: space-between;
-}
-
-.landing_page_links li {
-    display: inline-block;
-    padding: 5px 0px;
-}
-
-.landing_page_links li a {
-    color: #fff;
-    font-size: 95%;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.25s ease 0s;
-}
-
- .landing_page_links li a:hover{
-    color: #969393;
-    text-decoration: none;
+    display: none;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
 
 /* --------------------------------------------------------------------------- navbar -------------------------------------------------*/
 
+.navbar,
+.navbar-inverse,
+.navbar-static-top {
+    display: block;
+}
+
+.navbar-header {
+    text-align: center;
+}
+
+.navbar,
+.navbar-inverse,
+.navbar-static-top,
+.navbar-toggle {
+    background-color: transparent;
+    border-color: transparent;
+    float: none;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    text-align: center;
+    color: #fff;
+}
+
+.navbar-toggle {
+    margin: 8px 15px;
+}
+
+.navbar-collapse {
+    border-top: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.collapsing {
+    -webkit-transition: height .1s ease;
+    -o-transition: height .1s ease;
+    transition: height .1s ease;
+}
+
 .nav_logo {
     cursor: pointer;
     max-width: 100%;
+    display: block;
 }
 
-.nav_links,
+.css_nav,
 .nav_social {
+    display: none;
+}
+
+.nav_social_footer,
+.nav_social_index_footer {
     list-style: none;
 }
 
-.nav_links li,
-.nav_social li {
+.nav_social_footer li,
+.nav_social_index_footer li {
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0px 12px;
     text-decoration: none;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 600;
 }
 
-.nav_links li a,
-.nav_social li a {
+.nav_social_footer li a,
+.nav_social_index_footer li a {
     transition: all 0.25s ease 0s;
     text-decoration: none;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 600;
 }
 
-.nav_links li a:hover,
-.nav_social li a:hover {
+.nav_social_footer li a:hover,
+.nav_social_index_footer li a:hover {
     color: #969393;
     text-decoration: none;
 }
 
-.nav_social {
-    display: none;
-}
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -121,7 +158,20 @@ h2 {
     font-size: 35px;
 }
 
+.linebreak {
+    background-color: #fff;
+    height: 1px;
+    margin: 30px 0;
+}
+
+
 /* ---------------------------------------------------------------------- Event Page -----------------------------------------------*/
+
+.event_photo_slider {
+    max-height: 660px;
+    overflow: hidden;
+}
+
 
 .event_flyer_border h5 {
     font-size: 12px;
@@ -172,19 +222,39 @@ h2 {
 
 .bmr_description {
     font-size: 20px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
     text-align: center;
     margin: 0 10px;
     color: #b3b3b3;
 }
 
 
-.linebreak {
-    background-color: #fff;
-    height: 1px;
-    margin: 30px 0;
+
+.contact_box {
+    text-align: center;
+    padding: 10px;
 }
 
+
+.crew_contact {
+    display: inline-block;
+    padding: 5px;
+    height: 100%;
+    width: 300px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.crew_contact a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.crew_contact a h3 {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
 
 
 
@@ -220,37 +290,105 @@ h2 {
 
 /* ------------------------------------------------------------------------------- Media Queries -------------------------*/
 
-@media only screen and (min-device-width: 768px) {
-    .pic {
-        background-size: 2000px;
-        background-position: center;
-        background-repeat: repeat-y;
-        min-height: 100vh;
-        min-width: 100vh;
-    }
+@media only screen and (min-width: 762px) {
+
+
 
     .landing_page_logo {
-        max-width: 100%;
         padding: 15% 5% 0 5%;
     }
 
+    .landing_page_links {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .landing_page_links li {
+        display: inline-block;
         padding: 5px 20px;
     }
 
     .landing_page_links li a {
+        font-family: 'Russo One', sans-serif;
         font-size: 150%;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.25s ease 0s;
+    }
 
+
+    .landing_page_links li a:hover {
+        color: #969393;
+        text-decoration: none;
+    }
+
+    .navbar,
+    .navbar-inverse,
+    .navbar-static-top {
+        display: none;
+    }
+
+    .css_nav {
+        display: flex;
+    }
+
+    .nav_links,
+    .nav_social {
+        list-style: none;
+    }
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 7px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    .nav_links li a {
+        transition: all 0.25s ease 0s;
+        text-decoration: none;
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    .nav_links li a:hover {
+        color: #969393;
+        text-decoration: none;
     }
 
     .bmr_description {
-        font-size: 20px;
+        font-size: 24px;
         margin: 0 100px;
+    }
+
+    .crew_contact a h3 {
+        text-decoration: none;
+        color: #fff;
     }
 
 }
 
+@media only screen and (min-width: 770px) {
+    .nav_links li {
+        padding: 0px 7px;
+        font-size: 1em;
+    }
+
+    .nav_links li a {
+        font-size: 1em;
+    }
+}
+
 @media only screen and (min-width: 970px) {
+
+    .pic {
+        min-width: 100vh;
+    }
+
     .landing_page_logo {
         max-width: 100%;
         padding: 15% 5% 0 5%;
@@ -312,17 +450,40 @@ h2 {
         display: flex;
     }
 
+    .nav_social_footer {
+        display: none;
+    }
+
     .event_flyer_border h5 {
         font-size: 20px;
     }
+
+    .nav_social {
+        list-style: none;
+    }
+
+    .nav_social li {
+        display: inline-block;
+        padding: 0px 15px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    .nav_social li a {
+        transition: all 0.25s ease 0s;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    .nav_social li a:hover {
+        color: #969393;
+        text-decoration: none;
+    }
 }
-
-
-
-
-
-
-
 
 
 
