@@ -26,6 +26,7 @@ header {
 
 .landing_page_header {
     display: block;
+    padding: 0;
 }
 
 
@@ -295,7 +296,7 @@ h2 {
 
 
     .landing_page_logo {
-        padding: 15% 5% 0 5%;
+        padding: 10% 5% 0 5%;
     }
 
     .landing_page_links {
@@ -391,7 +392,7 @@ h2 {
 
     .landing_page_logo {
         max-width: 100%;
-        padding: 15% 5% 0 5%;
+        padding: 5% 5% 0 5%;
     }
 
     .landing_page_links li {
@@ -446,6 +447,12 @@ h2 {
 
 
 @media only screen and (min-width: 1150px) {
+    
+    .landing_page_logo {
+        max-width: 100%;
+        padding: 10% 5% 0 5%;
+    }
+    
     .nav_social {
         display: flex;
     }
