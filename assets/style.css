@@ -32,7 +32,7 @@ header {
 }
 
 .pic {
-    background-image: url("/assets/images/event images/dsfdsfdsfdsdfsfds.jpg");
+    background-image: url("/assets/images/landing-page/landing-page-background-pic.jpg");
     background-size: 2000px;
     background-position: center;
     background-repeat: repeat-y;
@@ -141,7 +141,7 @@ header {
     text-decoration: none;
 }
 
-/* --------------------------------- General ------------------------------------*/
+/* --------------------------------- General cross-page elements ------------------------------------*/
 
 h1,
 h2 {
@@ -271,7 +271,7 @@ h2 {
 }
 
 .footer_info h6 {
-    color: #353535;
+    color: #696969;
     font-family: 'Nunito Sans', sans-serif;
 }
 
