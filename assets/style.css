@@ -24,7 +24,7 @@ header {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/* --------------------------------- Landing page ------------------------------------*/
+/* ------------- Landing page -------------------*/
 
 .landing_page_header {
     display: block;
@@ -49,7 +49,7 @@ header {
     display: none;
 }
 
-/* --------------------------------- navbar -------------------------------------------------*/
+/* --------- navbar --------------------------*/
 
 .navbar,
 .navbar-inverse,
@@ -141,27 +141,18 @@ header {
     text-decoration: none;
 }
 
-/* --------------------------------- General cross-page elements ------------------------------------*/
+/* ---------- General cross-page elements --------------*/
 
 h1,
 h2 {
     text-align: center;
     margin: 20px auto 20px auto;
     font-family: 'Russo One', sans-serif;
-}
-
-h1 {
     font-size: 50px;
 }
 
 h2 {
     font-size: 35px;
-}
-
-.linebreak {
-    background-color: #fff;
-    height: 1px;
-    margin: 30px 0;
 }
 
 .bmr_description {
@@ -173,7 +164,21 @@ h2 {
     color: #b3b3b3;
 }
 
-/* --------------------------------- Event Page ------------------------------------*/
+.linebreak {
+    background-color: #fff;
+    height: 1px;
+    margin: 30px 0;
+}
+
+.back-to-top-button a {
+    display: block;
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 12px; 
+    text-align: center;
+}
+
+/* ----------- Event Page -------------------*/
 
 .event_photo_slider {
     max-height: 660px;
@@ -197,7 +202,7 @@ h2 {
     padding-top: 2%;
 }
 
-/* --------------------------------- Record Label Page ------------------------------------*/
+/* --------- Record Label Page -----------------*/
 
 .release_panel,
 .release_panel p,
@@ -244,7 +249,7 @@ h2 {
     color: #b3b3b3;
 }
 
-/*---------------------------------- Merch Page --------------------------------------*/
+/*--------------- Merch Page --------------------*/
 
 .merch_photo_slider {
     max-height: 660px;
@@ -287,7 +292,7 @@ h2 {
     max-width: 1px;
 }
 
-/* --------------------------------- Contact Page ------------------------------------*/
+/* ------------ Contact Page --------------*/
 
 .contact_box {
     text-align: center;
@@ -313,15 +318,7 @@ h2 {
     color: #fff;
 }
 
-.back-to-top-button a {
-    display: block;
-    text-decoration: none;
-    color: #b3b3b3;
-    font-size: 12px; 
-    text-align: center;
-}
-
-/* --------------------------------- Footer ------------------------------------*/
+/* --------- Footer -----------------*/
 
 .footer_info {
     text-align: center;
@@ -333,7 +330,7 @@ h2 {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/* ---------------------------------- Media Queries -----------------------------*/
+/* -------- Media Queries ---------------*/
 
 @media only screen and (min-width: 600px) {
     .merch_photo_slider {
@@ -342,7 +339,6 @@ h2 {
 }
 
 @media only screen and (min-width: 762px) {
-
     .landing_page_logo {
         padding: 10% 5% 0 5%;
     }
@@ -365,7 +361,6 @@ h2 {
         text-decoration: none;
         transition: all 0.25s ease 0s;
     }
-
 
     .landing_page_links li a:hover {
         color: #969393;
@@ -420,12 +415,6 @@ h2 {
         padding: 3% 2%;
         text-align: center;
     }
-
-    .crew_contact a h3 {
-        text-decoration: none;
-        color: #fff;
-    }
-
 }
 
 @media only screen and (min-width: 770px) {
@@ -440,7 +429,6 @@ h2 {
 }
 
 @media only screen and (min-width: 970px) {
-
     .pic {
         min-width: 100vh;
     }
@@ -498,12 +486,10 @@ h2 {
 
     .merch_panel img {
         padding-bottom: 0;
-
     }
 }
 
 @media only screen and (min-width: 1150px) {
-
     .landing_page_logo {
         max-width: 100%;
         padding: 10% 5% 0 5%;
@@ -546,82 +532,4 @@ h2 {
         color: #969393;
         text-decoration: none;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Large screens ----------- */
-
-@media only screen and (min-width: 1824px) {
-    /* Styles */
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-}
-
-/* Smartphones (landscape) ----------- */
-
-@media only screen and (min-width: 321px) {
-    /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-
-@media only screen and (max-width: 320px) {
-    /* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Styles */
-}
-
-/* iPads (landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    /* Styles */
-}
-
-/* iPads (portrait) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    /* Styles */
-}
-
-/**********
-iPad 3
-**********/
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles */
-}
-
-
-
-/* iPhone 4 ----------- */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles */
 }
