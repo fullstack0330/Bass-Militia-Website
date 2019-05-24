@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 5%;
+    padding: 20px 5%;
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -311,6 +311,14 @@ h2 {
     font-size: 20px;
     text-decoration: none;
     color: #fff;
+}
+
+.back-to-top-button a {
+    display: block;
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 12px; 
+    text-align: center;
 }
 
 /* --------------------------------- Footer ------------------------------------*/
