@@ -10,7 +10,7 @@ body {
     color: #fffefe;
 }
 
-.container {
+.page-container {
     margin-right: auto;
     margin-left: auto;
     max-width: 1050px;
@@ -22,6 +22,12 @@ header {
     align-items: center;
     padding: 20px 5%;
     font-family: 'Nunito Sans', sans-serif;
+}
+
+.linebreak {
+    background-color: #fff;
+    height: 1px;
+    margin: 30px 0;
 }
 
 /* ------------- Landing page -------------------*/
@@ -43,6 +49,18 @@ header {
     max-width: 100%;
     padding: 20% 0 5% 0;
 
+}
+
+.landing-line-top {
+    margin-top: 10px;
+}
+
+.landing-h1 {
+    font-size: 31px;
+}
+
+.landing-line-bottom {
+    margin-bottom: 10px;
 }
 
 .landing_page_links {
@@ -168,17 +186,11 @@ h6 {
     color: #b3b3b3;
 }
 
-.linebreak {
-    background-color: #fff;
-    height: 1px;
-    margin: 30px 0;
-}
-
 .back-to-top-button a {
     display: block;
     text-decoration: none;
     color: #b3b3b3;
-    font-size: 12px; 
+    font-size: 12px;
     text-align: center;
 }
 
@@ -344,7 +356,7 @@ h6 {
 
 @media only screen and (min-width: 762px) {
     .landing_page_logo {
-        padding: 10% 5% 0 5%;
+        padding: 4% 5% 0 5%;
     }
 
     .landing_page_links {
@@ -403,6 +415,10 @@ h6 {
         font-weight: 600;
     }
 
+    li.current a {
+        color: #969393;
+    }
+
     .nav_links li a:hover {
         color: #969393;
         text-decoration: none;
@@ -429,6 +445,10 @@ h6 {
 
     .nav_links li a {
         font-size: 1em;
+    }
+
+    .landing-h1 {
+        font-size: 50px;
     }
 }
 
@@ -535,5 +555,11 @@ h6 {
     .nav_social li a:hover {
         color: #969393;
         text-decoration: none;
+    }
+}
+
+@media only screen and (min-height: 670px) and (max-height: 750px) {
+    .landing_page_logo {
+        padding: 2% 5% 0 5%;
     }
 }
