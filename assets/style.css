@@ -41,7 +41,7 @@ header {
 }
 
 .pic {
-    background-image: url("assets/images/landing-page/landing-pic.jpg");
+    background-image: url("images/landing-page/landing-pic.jpg");
     background-size: 2000px;
     background-position: center;
     background-repeat: repeat-y;
