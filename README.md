@@ -8,7 +8,7 @@ Technologies used
 # Bass Militia Website [Project name and one or two lines of overview]
 
 A website built for the Bass Militia Collective, created to serve as a promotional showcase and contact directive for their music events team, as well as their freshly launched record label.
- 
+
 ## UX [Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.]
 
 Bass Militia is a Bristol based collective that focuses on creating and promoting electronic dance music - namely the harder and darker side of 4x4 bassline and mutant bass. They have been heavily involved in the local events industry for the past year in Bristol, having organised and successfully ran some of the best nights for this style of music in years.
@@ -44,7 +44,7 @@ As a producer, I want to be able to see what has been previously released and ha
 
 
 
- 
+
 
 ## Features
 
@@ -55,7 +55,7 @@ In this section, you should go over the different parts of your project, and des
 - merch page
 - contact page
 
- 
+
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
@@ -118,3 +118,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
+
+
+test test
