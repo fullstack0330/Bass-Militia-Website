@@ -318,6 +318,17 @@ h6 {
     padding: 10px;
 }
 
+.contact_form {
+    border: 1px solid white;
+    color: black;
+    background-color: red;
+
+}
+
+.form_element {
+    margin: 10px;
+}
+
 .crew_contact {
     display: inline-block;
     padding: 5px;
