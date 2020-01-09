@@ -231,7 +231,7 @@ h6 {
 }
 
 .release_panel_info {
-    padding: 20px;
+    padding: 5px 20px 20px 20px;
     font-family: 'Russo One', sans-serif;
 }
 
@@ -309,6 +309,12 @@ h6 {
     min-width: 1px;
     max-height: 1px;
     max-width: 1px;
+}
+
+.paypal-text {
+    display: block;
+    text-align: center;
+    font-size: 11px;
 }
 
 /* ------------ Contact Page --------------*/
@@ -499,12 +505,18 @@ h6 {
         font-size: 15px;
     }
 
+
     .release_panel,
     .release_panel p,
     .merch_panel,
     .merch_panel p {
         display: flex;
         text-align: left;
+    }
+
+    .merch_panel form .paypal-text {
+        display: block;
+        text-align: center;
     }
 
     .release_panel img,
