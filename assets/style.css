@@ -325,14 +325,31 @@ h6 {
 }
 
 .contact_form {
-    border: 1px solid white;
+    border: none;
     color: black;
-    background-color: red;
+    display: grid;
+}
 
+.contact_form select,
+.contact_form .send {
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.contact_form .send {
+    width: 100px;
 }
 
 .form_element {
-    margin: 10px;
+    margin: 6px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.file-browse {
+    text-align: center;
+    color: rgb(255, 254, 254);
+    margin: 6px
 }
 
 .crew_contact {
@@ -537,6 +554,11 @@ h6 {
     .merch_panel img {
         padding-bottom: 0;
     }
+
+    .contact_form {
+    max-width: 35%;
+    margin: auto;
+}
 }
 
 @media only screen and (min-width: 1150px) {
