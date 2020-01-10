@@ -121,8 +121,8 @@ As I was developing the website, the brand continued to create more media throug
 
 - I posted my webpage into the Slack 'Peer Review' channel for feedback from other students. 
 
-
-
+- I ran my website through [GTmetrix](https://gtmetrix.com) and it presented me with speed issues I had not been given on Google Developer Tools. It outlined that some of the images had been resized within the IDE so their native pixel ratio was still far too large, and I could save space by resizing these on top of the compression I had already applied. 
+    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/gmetrix-1.JPG?raw=true)
 
 
 html testing 
