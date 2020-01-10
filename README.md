@@ -100,21 +100,27 @@ As I was developing the website, the brand continued to create more media throug
 - I ran Audit tests within Google Developer Tools on both Mobile and Desktop to check that everything was hitting the highest scores possible. - Each section was 90-100%.
     - Doing this outlined the fact I needed to compress many of my images to allow for maximum speed performance. I successfully compressed every image to the threshold before it impacted on visible quality.
 
-**Please note the 'Best Practices' score is reduced on each page due to me deliberately placing low contrast text at the bottom of the page**
+    **Please note the 'Best Practices' score is reduced on each page due to me deliberately placing low contrast text at the bottom of the page**
 
-![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/1.JPG?raw=true)
+    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/1.JPG?raw=true)
 
-![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/2.JPG?raw=true)
+    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/2.JPG?raw=true)
 
-![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/3.JPG?raw=true)
+    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/3.JPG?raw=true)
 
-![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/4.JPG?raw=true)
+    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/4.JPG?raw=true)
 
 - I used the [W3C HTML Markup Validator](https://validator.w3.org/) to check all HTML was applied and working correctly. - *Working*
 
 - I used the [W3C CSS Validator](http://www.css-validator.org/) to check all the CSS was also valid and working correctly. - *Working*
 
 - I tested the website on my Iphone 5s and my Macbook Pro. - *Working*
+
+- I hosted the website on its own domain **https://www.bassmilitia.com** and showed the client for feedback and testing. 
+    - He was happy with everything and found no bugs.
+
+- I posted my webpage into the Slack 'Peer Review' channel for feedback from other students. 
+
 
 
 
