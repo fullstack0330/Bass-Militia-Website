@@ -25,7 +25,7 @@ So the basis of this project was to provide the client with a platform to docume
 
 - As a producer, I want to be able to see what has been previously released and have the ability to contact them, this way I can see if my own music will fit the style and if it would be something they are interested in.
 
-I originally presented the wireframe found here _________ as a rough idea, and the client was happy with my layout and general colour scheme. I did advise the layout may vary in places as I find what works and fits. 
+I originally presented the wireframe found [here](https://ibb.co/gtMw5wL) as a rough idea, and the client was happy with my layout and general colour scheme. I did advise the layout may vary in places as I find what works and fits. 
 
 
 ## Features
@@ -47,8 +47,9 @@ As I was developing the website, the brand continued to create more media throug
 - [Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) announcements - Users can clearly see any public news and announcements relating to the label at the top of the Record Label page via the 'Announcements' section.
 - Back catalogue of releases - On the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) Users can easily view the chronological order of releases and premieres on the label by viewing the 'Digital Album Releases' and 'Premieres' sections on the record label page.
 - Direct file uploads / submissions - Artists are able to upload their demo submissions for the record label directly through the website by visiting the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) and filling in the contact form in the 'Submissions' section at the bottom.
-- View and purchase merchandise - Via the [Merchandise page](https://samlaubscher.github.io/bass-militia-website/merchandise.html) Users are able to view the available merchandise and easily purchase using the linked PayPal 'Buy Now' buttons which display sizes and are actively linked to the correct corresponding payment account.
-- Crew members [contact](https://samlaubscher.github.io/bass-militia-website/contact.html) directory - Users are able to easily view members involved in the team as well as their contact details. Users can click on these details to compose direct emails to the respectful recipients.
+- Merchandise images - On the [Merchandise page](https://samlaubscher.github.io/bass-militia-website/merchandise.html) users can view photo carousels with the featured merchandise available.
+- Purchase merchandise - Via the [Merchandise page](https://samlaubscher.github.io/bass-militia-website/merchandise.html) users are able to securely purchase using the linked PayPal 'Buy Now' buttons which display sizes and are actively linked to the correct corresponding payment account.
+- Crew members [contact directory](https://samlaubscher.github.io/bass-militia-website/contact.html) - Users are able to easily view members involved in the team as well as their contact details. Users can click on these details to compose direct emails to the respectful recipients.
 - Submission and enquiry sections - Users are able to see the correct avenue of contact in regards to track submissions, event enquiries or general enquiries etc by viewing the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) and locating the section relating to their needs.
 - Direct contact forms - Via the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) any type of user is able to directly contact the brand via the website itself by filling in the contact form and allocating the correct reason for the enquiry.
 
@@ -59,19 +60,65 @@ As I was developing the website, the brand continued to create more media throug
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [**Cloud9IDE**](https://c9.io/login) 
+    - Cloud9 was the original IDE used to initially develop the majority of this project.
+- [**Gitpod**](https://gitpod.io/) 
+    - Gitpod was the IDE I migrated to and finished the development of my project in. 
+- [**HTML5**](https://en.wikipedia.org/wiki/HTML) 
+    - I used the HTML markup language to create the structure of my website.
+- [**CSS3**](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
+    - I used CSS to style the HTML on my webpage.
+- [**Bootstrap 3.7.7**](https://getbootstrap.com/docs/3.3/) 
+    - I used the Bootstrap framework only to help with minor content sizing and responsiveness, but mainly for the photo carousel and collapsed navbar. - I aimed to style the majority of the website myself using CSS without the assistance of the framework to maximise skills learnt.
+- [**JQuery**](https://jquery.com)
+    - I used jQuery alonside Bootstrap to collapse the Navbar.
+- [**Font Awesome**](https://fontawesome.com/)
+    - I used Font Awesome for the social media icons.
+- [**Google fonts**](https://fonts.google.com/)
+    - I implimented the use of Google Fonts into this project - I used 'Nunito Sans', 'Russo One' & 'Yantramanav'.
+- [**Soundcloud Embedded**](https://soundcloud.com/)
+    - I was able to embed the respected Soundcloud tracks and playlists to the corresponding releases on the Record Label page.
+- [**PayPal Embedded**](https://www.paypal.com)
+    - I was able to embed PayPal purchase buttons to allow users to safely and effectively purchase items on the Merchandise page.
+- [**Git**](https://git-scm.com/)
+    - I used Git for version control.
+- [**GitHub**](https://github.com/)
+    - I used GitHub alongside Git to commit the development stages and host the repository.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- Before I started the more in depth testing, I ensured that the website served the purpose it was built for by running through each of the user stories myself and checking all requirements were met.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- I checked all navigation, href and anchor links were working and pointed to the correct destinations. - *Working*
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- All images were correctly sized across the site and displayed correctly in the photo carousels. - *Working*
+
+- All email mailto: links were correct and working. - *Working*
+
+- I tested the responsiveness of the website across every different phone size within Google Developer Tools. - *Working*
+
+- I ran Auditing tests within Google Developer Tools on both Mobile and Desktop to check that everything was hitting the highest scores possible. - Each section was 90-100%.
+    - Doing this outlined the fact I needed to compress many of my images to allow for maximum speed performance. I successfully compressed every image to the threshold before it impacted on visible quality.
+
+![](https://ibb.co/MN9R36c)
+![](https://ibb.co/kKw8ZWS)
+![](https://ibb.co/2vnzTTt)
+![](https://ibb.co/54jWPcB)
+
+
+
+
+
+
+
+
+html testing 
+css testing 
+google audit 
+
+
+
+
 
 1. Contact form:
     1. Go to the "Contact Us" page
