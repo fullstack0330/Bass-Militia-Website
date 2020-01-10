@@ -1,71 +1,57 @@
-Ask about :-
-
-User story ie. should I use a contact box etc.
-Testing
-Technologies used
-
-
-# Bass Militia Website [Project name and one or two lines of overview]
+# Bass Militia Website
 
 A website built for the Bass Militia Collective, created to serve as a promotional showcase and contact directive for their music events team, as well as their freshly launched record label.
 
 ## UX [Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.]
 
-Bass Militia is a Bristol based collective that focuses on creating and promoting electronic dance music - namely the harder and darker side of 4x4 bassline and mutant bass. They have been heavily involved in the local events industry for the past year in Bristol, having organised and successfully ran some of the best nights for this style of music in years.
+Bass Militia is a Bristol based collective that focuses on creating and promoting electronic dance music - namely the harder and darker side of mutant bass, drum and bass, and 4x4 bass oriented styles. They have been heavily involved in the local events industry for the past year in Bristol, having organised and successfully ran some of the best nights for this style of music in years.
 
-The owner of the brand approached me and asked if I could build them a simple but effective website to serve some of their requirements and streamline their marketing. The initial request was to have a page that easily displayed contact information and all posters of the previous events organised by the brand, allowing them to easily present their back catalogue of work as well as a means of contact for anybody interested. I suggested they should also include event imagery as to deliver an instant insight on the general attendance and successful appearance of these past events.
+The owner of the brand approached me and asked if I could build them a simple but effective website to serve some of their requirements and streamline their marketing. The initial request was to have a page that easily displayed contact information and all posters of the previous events organised by the brand, allowing them to easily present their back catalogue of work as well as a means of contact for anybody interested. I suggested they should also include event imagery to deliver an instant insight on the general attendance and successful appearance of these past events.
 
 I was told that in the past two months, the further expansion of the brand has led to the formation of a record label with the aim to push the music that has come to be expected when attending the events. When speaking with the client, we spoke about the fact they only planned to promote and display their full music catalogue on Soundcloud - a free music streaming website - and whilst this site does serve its purpose extremely well, it is not the best option for those wanting to uniquely display announcements and release information. It was also discussed how Facebook limits promotion of posts, and that when customers look on a businesses Facebook page, they don't gain a very good grasp of the company whereas a website allows you to immediately be faced with the information in a unique style.
 
-So the basis of this project was to provide the client with a platform to document and showcase their content. I explained that I could create a front end site that would do just this.
 
+So the basis of this project was to provide the client with a platform to document and showcase their content. I explained that I could create a front end site that would serve the following purposes for different user types:
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- As somebody that has heard of Bass Militia, I want to look at the previous events organised by the brand so that I can see if its something I would be interested in.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As a promoter looking to potentially collaborate, I want to look at what the brand has done in the past and then have the ability to contact them.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- As an existing fan of Bass Militia or as somebody that has previously attended one of their events, I want to be able to look on their website and see any upcoming events, this way I can see the dates of them and see what acts will be playing.
 
+- As a DJ, I want to look up the music catalogue offered by the record label so that I can efficiently see what has been released and what is forthcoming.
 
-(User stories bit)
+- As a producer, I want to be able to see what has been previously released and have the ability to contact them, this way I can see if my own music will fit the style and if it would be something they are interested in.
 
-As somebody that has heard of Bass Militia, I want to look at the previous events organised by the brand so that I can see if its something I would be interested in.
-
-As a promoter looking to potentially collaborate, I want to look at what the brand has done in the past and then have the ability to contact them.
-
-As an existing fan of Bass Militia or as somebody that has previously attended one of their events, I want to be able to look on their website and see any upcoming events, this way I can see the dates of them and see what acts will be playing.
-
-As a DJ, I want to look up the music catalogue offered by the record label so that I can efficiently see what has been released and what is forthcoming.
-
-As a producer, I want to be able to see what has been previously released and have the ability to contact them, this way I can see if my own music will fit the style and if it would be something they are interested in.
-
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-
-
+I originally presented the wireframe found here _________ as a rough idea, and the client was happy with my layout and general colour scheme. I did advise the layout may vary in places as I find what works and fits. 
 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-- record label page
-- events page
-- merch page
-- contact page
-
+As I was developing the website, the brand continued to create more media through their events and releases - meaning there became sufficient content to dedicate individual pages to each section of the website.
+ 
+- Landing page
+- Events page
+- Record Label page
+- Merchandise page
+- Contact page
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- The Landing page allows users to easily and clearly navigate to either a specific page of the website they desire via the navbar, or to one of the external website links via the footer icons. (index.html)
+- Event images - The top of the Events page allows users to see photos taken taken at the events, achieved with the use of a photo carousel. (events.html)
+- Catalogue of pase events - The events page also allows users to clearly see all of the previous events hosted, achieved by displaying each of the posters in a chronologically ordered grid layout. (events.html)
+- Label announcements - Users can clearly see any public news and announcements relating to the label at the top of the Record Label page via the 'Announcements' section. (record_label.html)
+- Back catalogue of releases - Users can easily view the chronological order of releases and premieres on the label by viewing the 'Digital Album Releases' and 'Premieres' sections. (record_label.html)
+- Direct file uploads / submissions - Artists are able to upload their demo submissions for the record label directly through the website by visiting the Record Label page and filling in the contact form in the 'Submissions' section at the bottom. (record_label.html)
+- View and purchase merchandise - Users are able to view the available merchandise and easily purchase using the linked PayPal 'Buy Now' buttons which display sizes and are actively linked to the correct corresponding payment account. (merchandise.html)
+- Crew members contact directory - Users are able to easily view members involved in the team as well as their contact details. Users can click on these details to compose direct emails to the respectful recipients. (contact.html)
+- Submission and enquiry sections - Users are able to see the correct avenue of contact in regards to track submissions, event enquiries or general enquiries etc by viewing the Contact page and locating the section relating to their needs. (contact.html)
+- Direct contact forms - Any type of user is able to directly contact the brand via the website itself by filling in the contact form and allocating the correct reason for the enquiry. (contact.html)
 
 ### Features Left to Implement
-- Another feature idea
+- I would like to include the back end processes to allow the contact form submissions to be received by the server and for file submissions to be uploaded and downloaded.
+- I would like to embed social media widgets at some point to allow for Facebook and Soundcloud updates to be delivered live to the website for example.
+
 
 ## Technologies Used
 
