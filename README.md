@@ -100,7 +100,8 @@ As I was developing the website, the brand continued to create more media throug
 - I ran Auditing tests within Google Developer Tools on both Mobile and Desktop to check that everything was hitting the highest scores possible. - Each section was 90-100%.
     - Doing this outlined the fact I needed to compress many of my images to allow for maximum speed performance. I successfully compressed every image to the threshold before it impacted on visible quality.
 
-![](https://ibb.co/MN9R36c)
+![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/1.JPG?raw=true)
+
 ![](https://ibb.co/kKw8ZWS)
 ![](https://ibb.co/2vnzTTt)
 ![](https://ibb.co/54jWPcB)
