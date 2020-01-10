@@ -1,5 +1,7 @@
 # Bass Militia Website
 
+![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/landing-page/Landing-page-preview-screenshot.png?raw=true)
+
 A website built for the Bass Militia Collective, created to serve as a promotional showcase and contact directive for their music events team, as well as their freshly launched record label.
 
 ## UX [Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.]
