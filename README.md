@@ -37,7 +37,9 @@ As I was developing the website, the brand continued to create more media throug
 - Contact page
 
 ### Existing Features
-- The Landing page allows users to easily and clearly navigate to either a specific page of the website they desire via the navbar, or to one of the external website links via the footer icons. (index.html)
+- Navbar - A Navbar is used across the site allowing users to easily navigate through the website regardless of the page they are on. The use of a collapsable dropdown menu is used on mobile view to save space.
+- Social Media Links - The navbar also includes social media links across the website, these are relocated to the footer on mobile devices.
+- The [Landing page] (https://samlaubscher.github.io/bass-militia-website/index.html) allows users to easily and clearly navigate to either a specific page of the website they desire via the navbar, or to one of the external website links via the footer icons. (index.html)
 - Event images - The top of the Events page allows users to see photos taken taken at the events, achieved with the use of a photo carousel. (events.html)
 - Catalogue of pase events - The events page also allows users to clearly see all of the previous events hosted, achieved by displaying each of the posters in a chronologically ordered grid layout. (events.html)
 - Label announcements - Users can clearly see any public news and announcements relating to the label at the top of the Record Label page via the 'Announcements' section. (record_label.html)
@@ -104,6 +106,3 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
-
-
-test test
