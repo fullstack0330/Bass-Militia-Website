@@ -4,7 +4,7 @@
 
 A website built for the Bass Militia Collective, created to serve as a promotional showcase and contact directive for their music events team, as well as their freshly launched record label.
 
-## UX [Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.]
+## UX
 
 Bass Militia is a Bristol based collective that focuses on creating and promoting electronic dance music - namely the harder and darker side of mutant bass, drum and bass, and 4x4 bass oriented styles. They have been heavily involved in the local events industry for the past year in Bristol, having organised and successfully ran some of the best nights for this style of music in years.
 
@@ -143,6 +143,8 @@ As I was developing the website, the brand continued to create more media throug
     - He was happy with everything and found no bugs.
 
 - I posted my webpage into the Slack 'Peer Review' channel for feedback from other students. 
+
+A small bug I ran into at the end was an image on the record label page breaking each time I attempted to load the page. I spent a while revampint the image and trying different ones. Finally I discovered I had somehow left a forward slash before the 'assets' part of the file path.
 
 ## Deployment
 
