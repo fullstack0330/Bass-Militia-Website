@@ -130,7 +130,7 @@ As I was developing the website, the brand continued to create more media throug
 
 - I used the [W3C CSS Validator](http://www.css-validator.org/) to check all the CSS was also valid and working correctly. - *Working*
 
-- I tested the website on my Iphone 5s and my Macbook Pro. - *Working*
+- I tested the website on an Iphone 5s, Samsung Galaxy, iPhone 7 and X. I also tested on multiple Macbook Pro's and Windows laptops as well as across multiple different browsers. - *Working*
 
 - I ran my website through [GTmetrix](https://gtmetrix.com) and it presented me with speed issues I had not been given on Google Developer Tools. 
     - It outlined that some of the images had been resized within the IDE so their native pixel ratio was still far too large.
@@ -143,21 +143,6 @@ As I was developing the website, the brand continued to create more media throug
     - He was happy with everything and found no bugs.
 
 - I posted my webpage into the Slack 'Peer Review' channel for feedback from other students. 
-
-
-
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
