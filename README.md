@@ -190,15 +190,15 @@ To deploy this website locally, users can follow these steps.
 ## Credits
 Credit must be given for the initial advice supplied through the project guidelines by Code Institute.
 
-**Soundcloud** provided the embedded code for the players via the release page *share* feature.
-**PayPal** provided the embedded payment button function through their website.
-**Bootcamp Photo Carousel** was taken from w3schools *https://www.w3schools.com/bootstrap/bootstrap_carousel.asp*.
+- **Soundcloud** provided the embedded code for the players via the release page *share* feature.
+- **PayPal** provided the embedded payment button function through their website.
+- **Bootcamp Photo Carousel** was taken from w3schools *https://www.w3schools.com/bootstrap/bootstrap_carousel.asp*.
 
 ### Content
-All content was created myself or provided from Bass Militia directly.
+- All content was created myself or provided from Bass Militia directly.
 
 ### Media
-All media used in this project was taken from Bass Militia directly. No content was taken from online. 
+- All media used in this project was taken from Bass Militia directly. No content was taken from online. 
 
 ### Acknowledgements
-I would like to thank my mentor Ignatius Ukwuoma for his mid and end of project feedback, as well as the other students that provided information and advice either directly or indirectly through the Slack channels.
+- I would like to thank my mentor Ignatius Ukwuoma for his mid and end of project feedback, as well as the other students that provided information and advice either directly or indirectly through the Slack channels.
