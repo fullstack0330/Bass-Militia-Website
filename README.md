@@ -6,7 +6,7 @@ A website built for the Bass Militia Collective, created to serve as a promotion
 
 ## UX
 
-Bass Militia is a Bristol based collective that focuses on creating and promoting electronic dance music - namely the harder and darker side of mutant bass, drum and bass, and 4x4 bass oriented styles. They have been heavily involved in the local events industry for the past year in Bristol, having organised and successfully ran some of the best nights for this style of music in years.
+Bass Militia is a Bristol based collective that focuses on creating and promoting electronic dance music - namely the harder and darker side of mutant bass, drum and bass, and 4x4 bass oriented styles. They have been heavily involved in the local events industry for the past year in Bristol, having organised and successfully run some of the best nights for this style of music in years.
 
 The owner of the brand approached me and asked if I could build them a simple but effective website to serve some of their requirements and streamline their marketing. The initial request was to have a page that easily displayed contact information and all posters of the previous events organised by the brand, allowing them to easily present their back catalogue of work as well as a means of contact for anybody interested. I suggested they should also include event imagery to deliver an instant insight on the general attendance and successful appearance of these past events.
 
@@ -39,7 +39,7 @@ As I was developing the website, the brand continued to create more media throug
 - Contact page
 
 ### Existing Features
-- **Navbar** - A Navbar is used across the site allowing users to easily navigate through the website regardless of the page they are on. The use of a collapsable dropdown menu is used on mobile view to save space.
+- **Navbar** - A Navbar is used across the site allowing users to easily navigate through the website regardless of the page they are on. The use of a collapsible dropdown menu is used on mobile view to save space.
 - **Social Media Links** - The navbar also includes social media links across the website, these are relocated to the footer on mobile devices.
 - **The [Landing page](https://samlaubscher.github.io/bass-militia-website/index.html)** - allows users to easily and clearly navigate to either a specific page of the website they desire via the navbar, or to one of the external website links via the footer icons.
 - **Event images** - The top of the [Events page](https://samlaubscher.github.io/bass-militia-website/events.html) allows users to see photos taken taken at the events, achieved with the use of a photo carousel.
@@ -71,11 +71,11 @@ As I was developing the website, the brand continued to create more media throug
 - [**Bootstrap 3.7.7**](https://getbootstrap.com/docs/3.3/) 
     - I used the Bootstrap framework only to help with minor content sizing and responsiveness, but mainly for the photo carousel and collapsed navbar. - I aimed to style the majority of the website myself using CSS without the assistance of the framework to maximise skills learnt.
 - [**JQuery**](https://jquery.com)
-    - I used jQuery alonside Bootstrap to collapse the Navbar.
+    - I used jQuery alongside Bootstrap to collapse the Navbar.
 - [**Font Awesome**](https://fontawesome.com/)
     - I used Font Awesome for the social media icons.
 - [**Google fonts**](https://fonts.google.com/)
-    - I implimented the use of Google Fonts into this project - I used 'Nunito Sans', 'Russo One' & 'Yantramanav'.
+    - I implemented the use of Google Fonts into this project - I used 'Nunito Sans', 'Russo One' & 'Yantramanav'.
 - [**Soundcloud Embedded**](https://soundcloud.com/)
     - I was able to embed the respected Soundcloud tracks and playlists to the corresponding releases on the Record Label page.
 - [**PayPal Embedded**](https://www.paypal.com)
@@ -98,10 +98,10 @@ As I was developing the website, the brand continued to create more media throug
 - Before I started the more in depth testing, I ensured that the website served the purpose it was built for by running through each of the user stories myself and checking all requirements were met.
 
 - I tested the contact boxes as follows:
-    - I went to the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) and tried to submit the form without any information entered to verify the 'required' promt appears. - *Working*
+    - I went to the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) and tried to submit the form without any information entered to verify the 'required' prompt appears. - *Working*
     - I tried to submit an incorrect email format to verify the error message appears. - *Working*
     - I verified it would only allow the user to upload audio file formats. - *Working*
-    - I went to the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) and tried to submit the form without any information entered to verify the 'required' promt appears. - *Working*
+    - I went to the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) and tried to submit the form without any information entered to verify the 'required' prompt appears. - *Working*
     - I tried to submit an incorrect email format to verify the error message appears. - *Working*
     - I verified it would allow the user to upload multiple file formats. - *Working*
 
@@ -148,11 +148,11 @@ As I was developing the website, the brand continued to create more media throug
 
 - I posted my webpage into the Slack 'Peer Review' channel for feedback from other students. 
 
-A small bug I ran into at the end was an image on the record label page breaking each time I attempted to load the page. I spent a while revampint the image and trying different ones. Finally I discovered I had somehow left a forward slash before the 'assets' part of the file path.
+A small bug I ran into at the end was an image on the record label page breaking each time I attempted to load the page. I spent a while revamping the image and trying different ones. Finally I discovered I had somehow left a forward slash before the 'assets' part of the file path.
 
 ## Deployment
 
-### GitHug pages
+### GitHub pages
 To deploy this project for project marking, I utilised the GitHub Pages feature. The steps I took to do this are as follows.
 - I visited my GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
 - I clicked on *Settings* in the top right hand corner.
