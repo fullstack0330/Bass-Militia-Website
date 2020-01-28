@@ -154,38 +154,38 @@ A small bug I ran into at the end was an image on the record label page breaking
 
 ### GitHug pages
 To deploy this project for project marking, I utilised the GitHub Pages feature. The steps I took to do this are as follows.
-    - I visited my GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
-    - I clicked on *Settings* in the top right hand corner.
-    - I scrolled down to the *GitHub Pages* section.
-    - The top part named *Source* contains a dropdown box, I clicked that and selected *Master Branch* from the menu.
-    - Upon clicking the *Master Branch*, the page automatically refreshed and a ribbon appeared stating this below message detailing the successful deployment of the page.
+- I visited my GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
+- I clicked on *Settings* in the top right hand corner.
+- I scrolled down to the *GitHub Pages* section.
+- The top part named *Source* contains a dropdown box, I clicked that and selected *Master Branch* from the menu.
+- Upon clicking the *Master Branch*, the page automatically refreshed and a ribbon appeared stating this below message detailing the successful deployment of the page.
     ```
     Your site is published at https://samlaubscher.github.io/bass-militia-website/
     ```
 
 ### IONOS by 1&1
 To deploy this project for official use by my client, I followed the below procedure.
-    - First I registered the domain *www.bassmilitia.com* and bought the hosting package.
-    - I downloaded my repository from the GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
-    - I then opened the web hosting overview page - *https://my.ionos.co.uk/hosting-overview*
-    - I clicked on *Use Webspace* and was taken to a file uploading page. 
-    - I unpacked the repository folder I had just downloaded, and uploaded it to this directory.
-    - I then returned to the web hosting overview page and selected *Link Directory to Domain*.
-    - I selected the domain I had just purchased. 
-    - The page then refreshed and showed that the webspace was successfully linked to this domain. 
-    - I then clicked on *Manage Domain*.
-    - I clicked on *Settings* and selected *Apply SSL Certificate*. 
-    - The domain was now ready for use with *https* and the website was successfully and securely deployed.
+- First I registered the domain *www.bassmilitia.com* and bought the hosting package.
+- I downloaded my repository from the GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
+- I then opened the web hosting overview page - *https://my.ionos.co.uk/hosting-overview*
+- I clicked on *Use Webspace* and was taken to a file uploading page. 
+- I unpacked the repository folder I had just downloaded, and uploaded it to this directory.
+- I then returned to the web hosting overview page and selected *Link Directory to Domain*.
+- I selected the domain I had just purchased. 
+- The page then refreshed and showed that the webspace was successfully linked to this domain. 
+- I then clicked on *Manage Domain*.
+- I clicked on *Settings* and selected *Apply SSL Certificate*. 
+- The domain was now ready for use with *https* and the website was successfully and securely deployed.
 
 ### Local Deployment
 To deploy this website locally, users can follow these steps.
-    - Visit the repository page [repository page](https://github.com/samlaubscher/bass-militia-website).
-    - Click the *Clone or download* dropdown menu box.
-    - Copy the SSH key *git@github.com:samlaubscher/bass-militia-website.git* .
-    - Open terminal on their own local machine. 
-    - Change the directory to the location you want the repository to be saved by using the *cd* command.
-    - Type *git@github.com:samlaubscher/bass-militia-website.git* .
-    - The files should now be downloaded to the specified directory allowing the website to be run locally by running the *index.html* file. 
+- Visit the repository page [repository page](https://github.com/samlaubscher/bass-militia-website).
+- Click the *Clone or download* dropdown menu box.
+- Copy the SSH key *git@github.com:samlaubscher/bass-militia-website.git* .
+- Open terminal on their own local machine. 
+- Change the directory to the location you want the repository to be saved by using the *cd* command.
+- Type *git@github.com:samlaubscher/bass-militia-website.git* .
+- The files should now be downloaded to the specified directory allowing the website to be run locally by running the *index.html* file. 
 
 ## Credits
 Credit must be given for the initial advice supplied through the project guidelines by Code Institute.
