@@ -84,6 +84,10 @@ As I was developing the website, the brand continued to create more media throug
     - I used Git for version control.
 - [**GitHub**](https://github.com/)
     - I used GitHub alongside Git to commit the development stages and host the repository.
+- [**GitHub Pages**](https://pages.github.com/)
+    - I deployed my website to this for project marking and peer review.
+- [**IONOS by 1&1**](https://www.ionos.co.uk)
+    - I registered the domain and hosted my final site to this service for my client to use officially.
 - [**TinyJPG**](https://tinyjpg.com)
     - I compressed my images using this website.
 - [**ResizeImage.net**](https://resizeimage.net/)
@@ -148,24 +152,53 @@ A small bug I ran into at the end was an image on the record label page breaking
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+###GitHug pages
+To deploy this project for project marking, I utilised the GitHub Pages feature. The steps I took to do this are as follows.
+    - I visited my GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
+    - I clicked on *Settings* in the top right hand corner.
+    - I scrolled down to the *GitHub Pages* section.
+    - The top part named *Source* contains a dropdown box, I clicked that and selected *Master Branch* from the menu.
+    - Upon clicking the *Master Branch*, the page automatically refreshed and a ribbon appeared stating this below message detailing the successful deployment of the page.
+    ```
+    Your site is published at https://samlaubscher.github.io/bass-militia-website/
+    ```
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+###IONOS by 1&1
+To deploy this project for official use by my client, I followed the below procedure.
+    - First I registered the domain *www.bassmilitia.com* and bought the hosting package.
+    - I downloaded my repository from the GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
+    - I then opened the web hosting overview page - *https://my.ionos.co.uk/hosting-overview*
+    - I clicked on *Use Webspace* and was taken to a file uploading page. 
+    - I unpacked the repository folder I had just downloaded, and uploaded it to this directory.
+    - I then returned to the web hosting overview page and selected *Link Directory to Domain*.
+    - I selected the domain I had just purchased. 
+    - The page then refreshed and showed that the webspace was successfully linked to this domain. 
+    - I then clicked on *Manage Domain*.
+    - I clicked on *Settings* and selected *Apply SSL Certificate*. 
+    - The domain was now ready for use with *https* and the website was successfully and securely deployed.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+###Local Deployment
+To deploy this website locally, users can follow these steps.
+    - Visit the repository page [repository page](https://github.com/samlaubscher/bass-militia-website).
+    - Click the *Clone or download* dropdown menu box.
+    - Copy the SSH key *git@github.com:samlaubscher/bass-militia-website.git* .
+    - Open terminal on their own local machine. 
+    - Change the directory to the location you want the repository to be saved by using the *cd* command.
+    - Type *git@github.com:samlaubscher/bass-militia-website.git* .
+    - The files should now be downloaded to the specified directory allowing the website to be run locally by running the *index.html* file. 
 
 ## Credits
+Credit must be given for the initial advice supplied through the project guidelines by Code Institute.
+
+**Soundcloud** provided the embedded code for the players via the release page *share* feature.
+**PayPal** provided the embedded payment button function through their website.
+**Bootcamp Photo Carousel** was taken from w3schools *https://www.w3schools.com/bootstrap/bootstrap_carousel.asp*.
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+All content was created myself or provided from Bass Militia directly.
 
 ### Media
-- The photos used in this site were obtained from ...
+All media used in this project was taken from Bass Militia directly. No content was taken from online. 
 
 ### Acknowledgements
-
-- I received inspiration for this project from X
+I would like to thank my mentor Ignatius Ukwuoma for his mid and end of project feedback, as well as the other students that provided information and advice either directly or indirectly through the Slack channels.
