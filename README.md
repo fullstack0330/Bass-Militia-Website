@@ -1,6 +1,6 @@
 # Bass Militia Website
 
-![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/landing-page/Landing-page-preview-screenshot.png?raw=true)
+![](https://github.com/fullstack0330/bass-militia-website/blob/master/assets/images/landing-page/Landing-page-preview-screenshot.png?raw=true)
 
 A website built for the Bass Militia Collective, created to serve as a promotional showcase and contact directive for their music events team, as well as their freshly launched record label.
 
@@ -41,17 +41,17 @@ As I was developing the website, the brand continued to create more media throug
 ### Existing Features
 - **Navbar** - A Navbar is used across the site allowing users to easily navigate through the website regardless of the page they are on. The use of a collapsible dropdown menu is used on mobile view to save space.
 - **Social Media Links** - The navbar also includes social media links across the website, these are relocated to the footer on mobile devices.
-- **The [Landing page](https://samlaubscher.github.io/bass-militia-website/index.html)** - allows users to easily and clearly navigate to either a specific page of the website they desire via the navbar, or to one of the external website links via the footer icons.
-- **Event images** - The top of the [Events page](https://samlaubscher.github.io/bass-militia-website/events.html) allows users to see photos taken taken at the events, achieved with the use of a photo carousel.
-- **Catalogue of past events** - The [Events page](https://samlaubscher.github.io/bass-militia-website/events.html) also allows users to clearly see all of the previous events hosted, achieved by displaying each of the posters in a chronologically ordered grid layout.
-- **[Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) announcements** - Users can clearly see any public news and announcements relating to the label at the top of the Record Label page via the 'Announcements' section.
-- **Back catalogue of releases** - On the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) Users can easily view the chronological order of releases and premieres on the label by viewing the 'Digital Album Releases' and 'Premieres' sections on the record label page.
-- **Direct file uploads / submissions** - Artists are able to upload their demo submissions for the record label directly through the website by visiting the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) and filling in the contact form in the 'Submissions' section at the bottom.
-- **Merchandise images** - On the [Merchandise page](https://samlaubscher.github.io/bass-militia-website/merchandise.html) users can view photo carousels with the featured merchandise available.
-- **Purchase merchandise** - Via the [Merchandise page](https://samlaubscher.github.io/bass-militia-website/merchandise.html) users are able to securely purchase using the linked PayPal 'Buy Now' buttons which display sizes and are actively linked to the correct corresponding payment account.
-- **Crew members [contact directory](https://samlaubscher.github.io/bass-militia-website/contact.html)** - Users are able to easily view members involved in the team as well as their contact details. Users can click on these details to compose direct emails to the respectful recipients.
-- **Submission and enquiry sections** - Users are able to see the correct avenue of contact in regards to track submissions, event enquiries or general enquiries etc by viewing the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) and locating the section relating to their needs.
-- **Direct contact forms** - Via the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) any type of user is able to directly contact the brand via the website itself by filling in the contact form and allocating the correct reason for the enquiry.
+- **The [Landing page](https://fullstack0330.github.io/bass-militia-website/index.html)** - allows users to easily and clearly navigate to either a specific page of the website they desire via the navbar, or to one of the external website links via the footer icons.
+- **Event images** - The top of the [Events page](https://fullstack0330.github.io/bass-militia-website/events.html) allows users to see photos taken taken at the events, achieved with the use of a photo carousel.
+- **Catalogue of past events** - The [Events page](https://fullstack0330.github.io/bass-militia-website/events.html) also allows users to clearly see all of the previous events hosted, achieved by displaying each of the posters in a chronologically ordered grid layout.
+- **[Label page](https://fullstack0330.github.io/bass-militia-website/record_label.html) announcements** - Users can clearly see any public news and announcements relating to the label at the top of the Record Label page via the 'Announcements' section.
+- **Back catalogue of releases** - On the [Record Label page](https://fullstack0330.github.io/bass-militia-website/record_label.html) Users can easily view the chronological order of releases and premieres on the label by viewing the 'Digital Album Releases' and 'Premieres' sections on the record label page.
+- **Direct file uploads / submissions** - Artists are able to upload their demo submissions for the record label directly through the website by visiting the [Record Label page](https://fullstack0330.github.io/bass-militia-website/record_label.html) and filling in the contact form in the 'Submissions' section at the bottom.
+- **Merchandise images** - On the [Merchandise page](https://fullstack0330.github.io/bass-militia-website/merchandise.html) users can view photo carousels with the featured merchandise available.
+- **Purchase merchandise** - Via the [Merchandise page](https://fullstack0330.github.io/bass-militia-website/merchandise.html) users are able to securely purchase using the linked PayPal 'Buy Now' buttons which display sizes and are actively linked to the correct corresponding payment account.
+- **Crew members [contact directory](https://fullstack0330.github.io/bass-militia-website/contact.html)** - Users are able to easily view members involved in the team as well as their contact details. Users can click on these details to compose direct emails to the respectful recipients.
+- **Submission and enquiry sections** - Users are able to see the correct avenue of contact in regards to track submissions, event enquiries or general enquiries etc by viewing the [Contact page](https://fullstack0330.github.io/bass-militia-website/contact.html) and locating the section relating to their needs.
+- **Direct contact forms** - Via the [Contact page](https://fullstack0330.github.io/bass-militia-website/contact.html) any type of user is able to directly contact the brand via the website itself by filling in the contact form and allocating the correct reason for the enquiry.
 
 ### Features Left to Implement
 - I would like to include the back end processes to allow the contact form submissions to be received by the server and for file submissions to be uploaded and downloaded.
@@ -98,10 +98,10 @@ As I was developing the website, the brand continued to create more media throug
 - Before I started the more in depth testing, I ensured that the website served the purpose it was built for by running through each of the user stories myself and checking all requirements were met.
 
 - I tested the contact boxes as follows:
-    - I went to the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) and tried to submit the form without any information entered to verify the 'required' prompt appears. - *Working*
+    - I went to the [Record Label page](https://fullstack0330.github.io/bass-militia-website/record_label.html) and tried to submit the form without any information entered to verify the 'required' prompt appears. - *Working*
     - I tried to submit an incorrect email format to verify the error message appears. - *Working*
     - I verified it would only allow the user to upload audio file formats. - *Working*
-    - I went to the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) and tried to submit the form without any information entered to verify the 'required' prompt appears. - *Working*
+    - I went to the [Contact page](https://fullstack0330.github.io/bass-militia-website/contact.html) and tried to submit the form without any information entered to verify the 'required' prompt appears. - *Working*
     - I tried to submit an incorrect email format to verify the error message appears. - *Working*
     - I verified it would allow the user to upload multiple file formats. - *Working*
 
@@ -122,13 +122,13 @@ As I was developing the website, the brand continued to create more media throug
 
     **Please note the 'Best Practices' score is reduced on each page due to me deliberately placing low contrast text at the bottom of the page**
 
-    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/1.JPG?raw=true)
+    ![](https://github.com/fullstack0330/bass-militia-website/blob/master/assets/images/readme-images/1.JPG?raw=true)
 
-    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/2.JPG?raw=true)
+    ![](https://github.com/fullstack0330/bass-militia-website/blob/master/assets/images/readme-images/2.JPG?raw=true)
 
-    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/3.JPG?raw=true)
+    ![](https://github.com/fullstack0330/bass-militia-website/blob/master/assets/images/readme-images/3.JPG?raw=true)
 
-    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/4.JPG?raw=true)
+    ![](https://github.com/fullstack0330/bass-militia-website/blob/master/assets/images/readme-images/4.JPG?raw=true)
 
 - I used the [W3C HTML Markup Validator](https://validator.w3.org/) to check all HTML was applied and working correctly. - *Working*
 
@@ -139,7 +139,7 @@ As I was developing the website, the brand continued to create more media throug
 - I ran my website through [GTmetrix](https://gtmetrix.com) and it presented me with speed issues I had not been given on Google Developer Tools. 
     - It outlined that some of the images had been resized within the IDE so their native pixel ratio was still far too large.
     
-    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/gmetrix-1.JPG?raw=true)
+    ![](https://github.com/fullstack0330/bass-militia-website/blob/master/assets/images/readme-images/gmetrix-1.JPG?raw=true)
 
     - I used compression and resizing tools to edit the images to give the best result possible. 
 
@@ -154,19 +154,19 @@ A small bug I ran into at the end was an image on the record label page breaking
 
 ### GitHub pages
 To deploy this project for project marking, I utilised the GitHub Pages feature. The steps I took to do this are as follows.
-- I visited my GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
+- I visited my GitHub [repository page](https://github.com/fullstack0330/bass-militia-website).
 - I clicked on *Settings* in the top right hand corner.
 - I scrolled down to the *GitHub Pages* section.
 - The top part named *Source* contains a dropdown box, I clicked that and selected *Master Branch* from the menu.
 - Upon clicking the *Master Branch*, the page automatically refreshed and a ribbon appeared stating this below message detailing the successful deployment of the page.
     ```
-    Your site is published at https://samlaubscher.github.io/bass-militia-website/
+    Your site is published at https://fullstack0330.github.io/bass-militia-website/
     ```
 
 ### IONOS by 1&1
 To deploy this project for official use by my client, I followed the below procedure.
 - First I registered the domain *www.bassmilitia.com* and bought the hosting package.
-- I downloaded my repository from the GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
+- I downloaded my repository from the GitHub [repository page](https://github.com/fullstack0330/bass-militia-website).
 - I then opened the web hosting overview page - *https://my.ionos.co.uk/hosting-overview*
 - I clicked on *Use Webspace* and was taken to a file uploading page. 
 - I unpacked the repository folder I had just downloaded, and uploaded it to this directory.
@@ -179,12 +179,12 @@ To deploy this project for official use by my client, I followed the below proce
 
 ### Local Deployment
 To deploy this website locally, users can follow these steps.
-- Visit the repository page [repository page](https://github.com/samlaubscher/bass-militia-website).
+- Visit the repository page [repository page](https://github.com/fullstack0330/bass-militia-website).
 - Click the *Clone or download* dropdown menu box.
-- Copy the SSH key *git@github.com:samlaubscher/bass-militia-website.git* .
+- Copy the SSH key *git@github.com:fullstack0330/bass-militia-website.git* .
 - Open terminal on their own local machine. 
 - Change the directory to the location you want the repository to be saved by using the *cd* command.
-- Type *git@github.com:samlaubscher/bass-militia-website.git* .
+- Type *git@github.com:fullstack0330/bass-militia-website.git* .
 - The files should now be downloaded to the specified directory allowing the website to be run locally by running the *index.html* file. 
 
 ## Credits
